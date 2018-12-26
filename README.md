@@ -1,0 +1,16 @@
+# Práticas realizadas na leitura no livro Fundamentos de SASS e COMPASS
+
+## CAPA
+## AUTOR
+
+## Preparando o ambiente 
+
+* Instalar o [Ruby](http://en.wikipedia.org/wiki/Markdown)
+
+* Intalar o SASS e Compass:
+
+Excecutar ```gem install compass``` na CLI.
+
+## Compilar SCSS
+
+Executar ```sass --watch ARQUIVO.scss:ARQUIVO.css``` na pasta onde estão os arquivos de estilo, para compilar o SASS.
