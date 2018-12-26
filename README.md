@@ -5,7 +5,7 @@
 
 ## Preparando o ambiente 
 
-* Instalar o [Ruby](http://en.wikipedia.org/wiki/Markdown)
+* Instalar o [Ruby](https://rubyinstaller.org/)
 
 * Intalar o SASS e Compass:
 
@@ -27,3 +27,7 @@ Executar ```sass --watch ARQUIVO.scss:ARQUIVO.css``` na pasta onde estão os arq
 - compressed
 
 EX: ```sass sass/style.scss css/style.css --style compressed```
+
+## Utilização do KOALA para compilas SASS
+
+* Instalar o [Koala](http://koala-app.com/) 
