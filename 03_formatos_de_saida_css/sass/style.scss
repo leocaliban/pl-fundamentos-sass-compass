@@ -1,0 +1,27 @@
+$cor-texto: red;
+
+body {
+  margin: 0;
+  font: 20px sans-serif;
+}
+
+h1 {
+  color: $cor-texto;
+}
+
+.main {
+  color: $cor-texto;
+  width: 78%;
+  float: right;
+  border: 1px solid #dddddd;
+}
+
+ul {
+  color: blue;
+  li {
+    color: green;
+    a {
+      color: darkmagenta;
+    }
+  }
+}

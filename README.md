@@ -18,3 +18,12 @@ Executar ```sass --watch ARQUIVO.scss:ARQUIVO.css``` na pasta onde estão os arq
 ### Monitorando CSS em diferentes diretórios
 
 ```sass --watch dir/ARQUIVO.scss:dir/ARQUIVO.css```
+
+## Definindo formatos de saída para a CSS
+
+- nested
+- expanded
+- compact
+- compressed
+
+EX: ```sass sass/style.scss css/style.css --style compressed```
