@@ -4,7 +4,7 @@ body {
   font: 20px sans-serif;
 }
 
-/* Variáveis */
+/* Variáveis globais */
 $versao: "0.0.1";
 $data: "28/12/2018";
 $class: menu;
@@ -31,6 +31,12 @@ Versão #{ $versao }
 Data: #{ $data }
 */
 
+h1{
+  // Variável local
+  $blue:rgb(58, 58, 202);
+  color: $blue;
+}
+
 // Interpolação
 div.#{ $class } {
   width: 100%;
@@ -40,6 +46,7 @@ div.#{ $class } {
 
   ul {
     list-style: none;
+    padding: 0;
   }
 
   a{

@@ -4,13 +4,16 @@ body {
   padding: 10px;
   font: 20px sans-serif; }
 
-/* Variáveis */
+/* Variáveis globais */
 /* Padronizando variáveis [BASE] */
 /* Variáveis mais específicas */
 /* INFO 
 Versão 0.0.1
 Data: 28/12/2018
 */
+h1 {
+  color: #3a3aca; }
+
 div.menu {
   width: 100%;
   font: 16px / 25px sans-serif;
@@ -22,7 +25,8 @@ div.menu {
   border-style: dotted;
   margin-bottom: 10px; }
   div.menu ul {
-    list-style: none; }
+    list-style: none;
+    padding: 0; }
   div.menu a {
     padding: 10px;
     text-decoration: none;
