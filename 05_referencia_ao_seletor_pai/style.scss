@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font: 20px sans-serif;
+}
+
+/*Aninhamento*/
+.principal {
+  width: 90%;
+  border: 1px solid #cccccc;
+
+  p,
+  div {
+    font-size: 120%;
+    a {
+      color: red;
+      text-decoration: none;
+
+      /* Referência ao seletor pai [&] */
+      &:hover {
+        color: blue;
+        text-decoration: underline;
+      }
+    }
+  }
+  pre {
+    font-size: 150%;
+  }
+}
+
+.footer {
+  color: rebeccapurple;
+  /* Definindo seletores separados por [-] ou [_] */
+  &-esquerda {
+    float: left;
+    color: red;
+  }
+  &-direita {
+    float: right;
+    color: green;
+  }
+}
