@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font: 20px sans-serif; }
+
+.principal {
+  width: 90%;
+  border: 1px solid #cccccc; }
+  .principal p, .principal div {
+    font-size: 120%; }
+    .principal p a, .principal div a {
+      text-decoration: none; }
+  .principal pre {
+    font-size: 150%; }
+
+/*# sourceMappingURL=style.css.map */

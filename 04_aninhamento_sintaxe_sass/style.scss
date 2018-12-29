@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font: 20px sans-serif;
+}
+
+/*Aninhamento*/
+.principal {
+  width: 90%;
+  border: 1px solid #cccccc;
+
+  p, div{
+    font-size: 120%;
+    a {
+      text-decoration: none;
+    }
+  }
+  pre{
+    font-size: 150%;
+  }
+}
+
