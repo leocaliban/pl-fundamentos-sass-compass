@@ -5,6 +5,8 @@ body {
   font: 20px sans-serif; }
 
 /* Variáveis */
+/* Padronizando variáveis [BASE] */
+/* Variáveis mais específicas */
 /* INFO 
 Versão 0.0.1
 Data: 28/12/2018
@@ -16,11 +18,19 @@ div.menu {
   display: flex;
   /* Propriedades em Namespace */
   border-color: blue;
-  border-width: 1px;
+  border-width: 2px;
   border-style: dotted;
   margin-bottom: 10px; }
   div.menu ul {
     list-style: none; }
+  div.menu a {
+    padding: 10px;
+    text-decoration: none;
+    color: #1c7bf7;
+    background-color: #dddddd; }
+    div.menu a:hover {
+      color: #1352a5;
+      background-color: #c2c1c1; }
 
 /* Aninhamento */
 .principal {

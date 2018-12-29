@@ -12,6 +12,20 @@ $font-size: 16px;
 $line-height: 25px;
 $blue: rgb(0, 0, 255);
 
+/* Padronizando variáveis [BASE] */
+$color-link: rgb(28, 123, 247);
+$color-text: rgb(80, 79, 79);
+$border-width: 1px;
+
+/* Variáveis mais específicas */
+$color-text-link-hover:rgb(19, 82, 165);
+$color-text-link-escuro:rgb(18, 62, 119);
+$color-text-link-claro:rgb(98, 166, 255);
+
+$border-width-2: 2px;
+$border-width-3: 3px;
+
+
 /* INFO 
 Versão #{ $versao }
 Data: #{ $data }
@@ -28,10 +42,26 @@ div.#{ $class } {
     list-style: none;
   }
 
+  a{
+    padding: 10px;
+    text-decoration: none;
+    color: $color-link;
+    background: {
+      color:rgb(221, 221, 221);
+    }
+    &:hover{
+      color:$color-text-link-hover;
+      background: {
+        color:rgb(194, 193, 193);
+      }
+      
+    }
+  }
+
   /* Propriedades em Namespace */
   border: {
     color: $blue;
-    width: 1px;
+    width: $border-width-2;
     style: dotted;
   }
 
