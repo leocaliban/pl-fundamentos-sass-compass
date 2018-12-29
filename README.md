@@ -15,6 +15,8 @@ Excecutar ```gem install compass``` na CLI.
 
 Executar ```sass --watch ARQUIVO.scss:ARQUIVO.css``` na pasta onde estão os arquivos de estilo, para compilar o SASS.
 
+Ex:```sass --watch style.scss:style.css```
+
 ### Monitorando CSS em diferentes diretórios
 
 ```sass --watch dir/ARQUIVO.scss:dir/ARQUIVO.css```
