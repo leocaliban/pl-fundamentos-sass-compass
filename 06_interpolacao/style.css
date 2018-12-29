@@ -12,7 +12,15 @@ Data: 28/12/2018
 div.menu {
   width: 100%;
   font: 16px / 25px sans-serif;
-  color: blue; }
+  color: blue;
+  display: flex;
+  /* Propriedades em Namespace */
+  border-color: blue;
+  border-width: 1px;
+  border-style: dotted;
+  margin-bottom: 10px; }
+  div.menu ul {
+    list-style: none; }
 
 /* Aninhamento */
 .principal {

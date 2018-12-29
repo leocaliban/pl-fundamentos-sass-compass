@@ -22,6 +22,22 @@ div.#{ $class } {
   width: 100%;
   font: #{$font-size} / #{$line-height} sans-serif;
   color: #{$blue};
+  display: flex;
+
+  ul {
+    list-style: none;
+  }
+
+  /* Propriedades em Namespace */
+  border: {
+    color: $blue;
+    width: 1px;
+    style: dotted;
+  }
+
+  margin: {
+    bottom: 10px;
+  }
 }
 
 /* Aninhamento */
