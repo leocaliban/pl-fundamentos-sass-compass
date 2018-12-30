@@ -1,0 +1,7 @@
+@import "cores";
+
+@mixin colorir($fundo, $sucesso) {
+  color: $verde;
+  background-color: $fundo;
+  border-color: $sucesso;
+}
