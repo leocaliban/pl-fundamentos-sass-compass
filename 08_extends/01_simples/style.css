@@ -1,0 +1,20 @@
+.container {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.btn-padrao, .btn-ok, .btn-cancelar {
+  font: 16px/1.5 sans-serif;
+  padding: .2em 0.7em;
+  color: white;
+  border-radius: .3em;
+  background-color: #3399cc; }
+
+.btn-ok {
+  background-color: #336633; }
+
+.btn-cancelar {
+  background-color: #993300; }
+
+/*# sourceMappingURL=style.css.map */

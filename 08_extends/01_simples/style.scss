@@ -1,0 +1,27 @@
+@import "cores";
+
+.container {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btn-padrao{
+  font: 16px/1.5 sans-serif;
+  padding: .2em 0.7em;
+  color: $branco;
+  border-radius: .3em;
+  background-color: $azul;
+}
+
+.btn-ok{
+  @extend .btn-padrao;
+  background-color: $verde;
+}
+
+.btn-cancelar{
+  @extend .btn-padrao;
+  background-color: $vermelha;
+}
+
