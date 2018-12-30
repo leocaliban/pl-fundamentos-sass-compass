@@ -1,0 +1,7 @@
+@import 'cores';
+
+@mixin colorir {
+    color: $verde;
+    background-color: #00f;
+    border-color: #0f0;
+}

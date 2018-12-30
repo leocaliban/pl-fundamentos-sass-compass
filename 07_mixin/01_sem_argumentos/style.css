@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.box {
+  height: 200px;
+  border: 5px solid;
+  color: lime;
+  background-color: #00f;
+  border-color: #0f0; }
+
+/*# sourceMappingURL=style.css.map */
