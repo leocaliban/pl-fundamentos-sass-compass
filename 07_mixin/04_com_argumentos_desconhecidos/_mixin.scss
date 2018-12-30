@@ -1,0 +1,13 @@
+@import "cores";
+
+@mixin colorir($sucesso, $fundo: rgb(0, 0, 0)) {
+  color: $verde;
+  background-color: $fundo;
+  border-color: $sucesso;
+}
+
+@mixin sombrear($sombras...) {
+  -moz-box-shadow: $sombras;
+  -webkit-box-shadow: $sombras;
+  box-shadow: $sombras;
+}
