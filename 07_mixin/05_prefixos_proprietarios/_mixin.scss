@@ -1,0 +1,20 @@
+@import "cores";
+
+@mixin colorir($sucesso, $fundo: rgb(0, 0, 0)) {
+  color: $verde;
+  background-color: $fundo;
+  border-color: $sucesso;
+}
+
+@mixin sombrear($sombras...) {
+  -moz-box-shadow: $sombras;
+  -webkit-box-shadow: $sombras;
+  box-shadow: $sombras;
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}

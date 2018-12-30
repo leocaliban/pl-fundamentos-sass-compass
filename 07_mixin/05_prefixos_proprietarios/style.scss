@@ -1,0 +1,15 @@
+@import "mixin";
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box {
+  height: 200px;
+  border: 5px solid;
+  @include colorir($verde);
+  @include sombrear(0px 4px 5px #666, 2px 6px 10px #999);
+  @include border-radius(10px);
+}
