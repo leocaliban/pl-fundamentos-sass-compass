@@ -1,0 +1,27 @@
+@import "cores";
+
+.container {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+// Extensão placeholder
+%tamaho-fonte{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  @extend %tamaho-fonte;
+}
+
+.link-normal:hover{
+  text-decoration: underline;
+}
+
+.link-ext:hover{
+  @extend .link-normal:hover;
+}
