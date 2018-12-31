@@ -1,0 +1,13 @@
+.container {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+a {
+  text-decoration: none; }
+
+.link-normal:hover, .link-ext:hover {
+  text-decoration: underline; }
+
+/*# sourceMappingURL=style.css.map */
