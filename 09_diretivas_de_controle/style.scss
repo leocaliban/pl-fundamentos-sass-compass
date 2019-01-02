@@ -1,0 +1,124 @@
+// Importando partials
+@import "cores";
+@import "box-sizing";
+
+/* Variáveis globais */
+$versao: "0.0.1";
+$data: "28/12/2018";
+$class: menu;
+$font-size: 16px;
+$line-height: 25px;
+
+/* Padronizando variáveis [BASE] */
+$color-link: rgb(28, 123, 247);
+$color-text: rgb(80, 79, 79);
+$border-width: 1px;
+
+/* Variáveis mais específicas */
+$color-text-link-hover: rgb(19, 82, 165);
+$color-text-link-escuro: rgb(18, 62, 119);
+$color-text-link-claro: rgb(98, 166, 255);
+
+$border-width-2: 2px;
+$border-width-3: 3px;
+
+/* INFO 
+Versão #{ $versao }
+Data: #{ $data }
+*/
+
+
+
+$tema: noite;
+// Diretivas de controle
+body {
+  @if $tema == dia {
+    background-color: burlywood;
+  } @else if $tema == chuva {
+    background-color: aqua;
+  } @else if $tema == noite {
+    background-color: rgb(104, 103, 103);
+  }
+}
+
+h1 {
+  // Variável local
+  $blue: rgb(58, 58, 202);
+  color: $blue;
+}
+
+// Interpolação
+div.#{ $class } {
+  width: 100%;
+  font: #{$font-size} / #{$line-height} sans-serif;
+  color: #{$azul};
+  display: flex;
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  a {
+    padding: 10px;
+    text-decoration: none;
+    color: $color-link;
+    background: {
+      color: rgb(221, 221, 221);
+    }
+    &:hover {
+      color: $color-text-link-hover;
+      background: {
+        color: rgb(194, 193, 193);
+      }
+    }
+  }
+
+  /* Propriedades em Namespace */
+  border: {
+    color: $azul;
+    width: $border-width-2;
+    style: dotted;
+  }
+
+  margin: {
+    bottom: 10px;
+  }
+}
+
+/* Aninhamento */
+.principal {
+  width: 90%;
+  border: 1px solid #cccccc;
+
+  p,
+  div {
+    font-size: 120%;
+    a {
+      color: red;
+      text-decoration: none;
+
+      /* Referência ao seletor pai [&] */
+      &:hover {
+        color: blue;
+        text-decoration: underline;
+      }
+    }
+  }
+  pre {
+    font-size: 150%;
+  }
+}
+
+.footer {
+  color: rebeccapurple;
+  /* Definindo seletores separados por [-] ou [_] */
+  &-esquerda {
+    float: left;
+    color: red;
+  }
+  &-direita {
+    float: right;
+    color: green;
+  }
+}

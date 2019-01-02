@@ -1,0 +1,74 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 10px;
+  font: 20px sans-serif; }
+
+/* Variáveis globais */
+/* Padronizando variáveis [BASE] */
+/* Variáveis mais específicas */
+/* INFO 
+Versão 0.0.1
+Data: 28/12/2018
+*/
+body {
+  background-color: #686767; }
+
+h1 {
+  color: #3a3aca; }
+
+div.menu {
+  width: 100%;
+  font: 16px / 25px sans-serif;
+  color: blue;
+  display: flex;
+  /* Propriedades em Namespace */
+  border-color: blue;
+  border-width: 2px;
+  border-style: dotted;
+  margin-bottom: 10px; }
+  div.menu ul {
+    list-style: none;
+    padding: 0; }
+  div.menu a {
+    padding: 10px;
+    text-decoration: none;
+    color: #1c7bf7;
+    background-color: #dddddd; }
+    div.menu a:hover {
+      color: #1352a5;
+      background-color: #c2c1c1; }
+
+/* Aninhamento */
+.principal {
+  width: 90%;
+  border: 1px solid #cccccc; }
+  .principal p,
+  .principal div {
+    font-size: 120%; }
+    .principal p a,
+    .principal div a {
+      color: red;
+      text-decoration: none;
+      /* Referência ao seletor pai [&] */ }
+      .principal p a:hover,
+      .principal div a:hover {
+        color: blue;
+        text-decoration: underline; }
+  .principal pre {
+    font-size: 150%; }
+
+.footer {
+  color: rebeccapurple;
+  /* Definindo seletores separados por [-] ou [_] */ }
+  .footer-esquerda {
+    float: left;
+    color: red; }
+  .footer-direita {
+    float: right;
+    color: green; }
+
+/*# sourceMappingURL=style.css.map */
