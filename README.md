@@ -1,7 +1,8 @@
 # Práticas realizadas na leitura no livro Fundamentos de SASS e COMPASS
 
-## CAPA
-## AUTOR
+![41-wz1fj-5l _sx347_bo1 204 203 200_](https://user-images.githubusercontent.com/23413093/50612502-59d32e80-0ec1-11e9-8d17-e865f9bbeae6.jpg)
+
+> por Maurício Samy Silva (Autor)
 
 ## Preparando o ambiente 
 
